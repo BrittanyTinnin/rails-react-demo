@@ -1,5 +1,7 @@
 # Rails React Todo App
-
+## Requirements
+  - must have postgresql installed
+  
 ## Rails
   - Generated using `rails new <project name> --api --database=postgresql`
 
