@@ -1,7 +1,14 @@
 # Rails React Todo App
 ## Requirements
   - must have postgresql installed
-  
+
+## Usage
+  - bundle install
+  - rake db:create db:migrate
+  - run rails server via `rails s -p 5000`
+  - open another terminal and cd into `client` and run `npm start`
+  - once npm start has ran, should open a new browser to display the website
+
 ## Rails
   - Generated using `rails new <project name> --api --database=postgresql`
 
